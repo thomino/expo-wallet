@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: 59 130 246;
+    --color-background: 255 255 255;
+    --color-surface: 249 250 251;
+    --color-text-primary: 17 24 39;
+    --color-text-secondary: 107 114 128;
+    --color-border: 229 231 235;
+  }
+  
+  .dark {
+    --color-primary: 147 197 253;
+    --color-background: 17 24 39;
+    --color-surface: 31 41 55;
+    --color-text-primary: 243 244 246;
+    --color-text-secondary: 156 163 175;
+    --color-border: 75 85 99;
+  }
+}
